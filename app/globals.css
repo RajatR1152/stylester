@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merienda:wght@600&family=Passion+One&family=Playfair+Display&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: digital;
+  src: url('../open-24-display-st/fonts.ttf');
+}
+
+.font-digital {
+  font-family: digital;
+}
+
+.font-anton {
+  font-family: 'Passion One', sans-serif;
+}
+
+.font-std {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-meri {
+  font-family: 'Merienda', cursive;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
